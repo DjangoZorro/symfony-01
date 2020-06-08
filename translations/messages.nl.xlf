@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="menu.add">
+                <source>Add new</source>
+                <target>Nieuw toevoegen</target>
+            </trans-unit>
+            <trans-unit id="menu.notifications">
+                <source>Notifications</source>
+                <target>Notificaties</target>
+            </trans-unit>
+            <trans-unit id="menu.signOut">
+                <source>Sign out</source>
+                <target>Afmelden</target>
+            </trans-unit>
+            <trans-unit id="menu.signIn">
+                <source>Sign in</source>
+                <target>Log in</target>
+            </trans-unit>
+            <trans-unit id="register.username">
+                <source>Username</source>
+                <target>Gebruikersnaam</target>
+            </trans-unit>
+            <trans-unit id="register.email">
+                <source>Email</source>
+                <target>E-Mail</target>
+            </trans-unit>
+            <trans-unit id="register.password">
+                <source>Password</source>
+                <target>Wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="register.repeatPassword">
+                <source>Repeated password</source>
+                <target>Herhaal wachtwoord</target>
+            </trans-unit>
+            <trans-unit id="register.fullName">
+                <source>Full name</source>
+                <target>Volledige naam</target>
+            </trans-unit>
+            <trans-unit id="register.terms">
+                <source>I agree to the terms of service</source>
+                <target>Ik ga akkoord met de Algemene Voorwaarden.</target>
+            </trans-unit>
+            <trans-unit id="register.registerButton">
+                <source>Register</source>
+                <target>Registreren</target>
+            </trans-unit>
+            <trans-unit id="email.registration">
+                <source>email.registration</source>
+                <target>
+                    <![CDATA[
+                        <h3>Welkom bij de app!</h3>
+                        <p>Hallo %name%! U bent geregistreerd bij de app!</p>
+                        <p>Bevestig uw account door hierop te klikken:&nbsp
+                            <a href="%confirm-link%">link</a>.
+                        </p>
+                        <p>Om in te loggen, ga naar de:&nbsp
+                            <a href="%login-link%">login pagina</a>.
+                        </p>
+                        <p>Bedankt!</p>
+                    ]]>
+                </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
