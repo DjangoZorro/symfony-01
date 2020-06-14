@@ -56,5 +56,9 @@ services:
 #            - !service { class: PDO, factory: 'database_connection:getWrappedConnection' }
             - { lock_mode: 1 }
 
+    App\Event\LocaleSubscriber:
+        arguments:
+            - '%kernel.default_locale%'
+
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
