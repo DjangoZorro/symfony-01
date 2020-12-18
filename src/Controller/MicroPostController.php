@@ -81,7 +81,7 @@ class MicroPostController
     {
         $currentUser = $tokenStorage->getToken()->getUser();
 
-        $usersToFollow= [];
+        $usersToFollow = [];
 
         if ($currentUser instanceof User) {
             $posts = $this->microPostRepository->findAllByUsers($currentUser->getFollowing());
